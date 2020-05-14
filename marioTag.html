@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="marioTag.css">
+    <script type="text/javascript" src="marioTag.js" charset="utf-8" defer></script>
+
+    <link rel="icon" href="mario.png" type="image/x-icon"> <!--Favicon-->
+
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="whole">
+
+	<div class="legend">
+		<div class="many">
+			<p>+10 points</p>
+			<img src="daisy.png" alt="daisy">
+			<img src="luigi.png" alt="luigi">
+			<img src="peach.png" alt="peach">
+			<img src="toad.png" alt="toad">
+			<img src="toadette.png" alt="toadette">
+			<img src="yoshi.png" alt="yoshi">
+		</div>
+		<div class="few">
+			<p>+50 points</p>
+			<img src="mario.png" alt="mario">
+		</div>
+		<div class="few">
+			<p>-10 points</p>
+			<img src="boo.png" alt="boo">
+			<img src="goomba.png" alt="goomba">
+		</div>
+		<div class="few">
+			<p>-50 points</p>
+			<img src="bowser.png" alt="bowser" id="bowser">
+		</div>
+	</div>
+
+	<div id="middle">
+
+		<div id="heading">
+
+			<h1><span class="blue">S</span
+			><span class="yellow">u</span
+			><span class="red">p</span
+			><span class="green">e</span
+			><span class="blue">r</span
+			><span class="yellow"> M</span
+			><span class="red">a</span
+			><span class="green">r</span
+			><span class="blue">i</span
+			><span class="yellow">o</span>
+
+			<span class="rainbow">Tag</span></h1>
+
+			<h2>Coins: <span id="score">0</span></h2>
+			<h2>Time remaining: <span id="time-left">60</span></h2>
+			
+		</div>
+
+		<div class="grid">
+			<div class="square"><img src="transparent.png" id="1" class= "character"  alt="mario character"></div>
+			<div class="square"><img src="transparent.png" id="2" class= "character"  alt="mario character"></div>
+			<div class="square"><img src="transparent.png" id="3" class= "character"  alt="mario character"></div>
+			<div class="square"><img src="transparent.png" id="4" class= "character"  alt="mario character"></div>
+			<div class="square"><img src="transparent.png" id="5" class= "character"  alt="mario character"></div>
+			<div class="square"><h1 id="scoreText"></h1><img src="transparent.png" id="6" class= "character"  alt="mario character"></div>
+			<div class="square"><img src="transparent.png" id="7" class= "character"  alt="mario character"></div>
+			<div class="square"><img src="transparent.png" id="8" class= "character"  alt="mario character"></div>
+			<div class="square"><img src="transparent.png" id="9" class= "character" alt="mario character"></div>
+		</div>
+
+		<div id="buttons">
+			<p>Choose your level to begin game: </p>
+			<input type="button" value="Easy" class="buttonStyle" name="start" id="startEasy">
+			<input type="button" value="Normal" class="buttonStyle" name="start" id="startMed">
+			<input type="button" value="Hard" class="buttonStyle" name="start" id="startHard">
+
+			<input type="button" value="Reset" class="buttonStyle" name="reset" id="reset">	
+		</div>
+
+	</div>
+
+	<div class="winner">
+		<p>Instructions:</p>
+		<p>Click the characters as many times as you can when they appear on the screen. Each time you click you will gain or lose points. You get a trophy based on how many points you get.</p>
+		<div id="trophies">
+			<div id="bronze">
+				<p>Less than 700 points</p>
+				<img src="bronze.png" alt="mario">
+			</div>
+			<div id="silver">
+				<p>700-1500 points</p>
+				<img src="silver.png" alt="boo">
+			</div>
+			<div id="gold">
+				<p>More than 1500 points</p>
+				<img src="gold.png" alt="bowser">
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+</body>
