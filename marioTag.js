@@ -12,7 +12,7 @@ let currentTime = timeLeft.textContent;
 
 //array of images 
 var characters = [
-	"boo.png", "bowser.png", "daisy.png", "goomba.png", "luigi.png",
+	"boo.png", "bowser.png", "daisy.png", "goomba.PNG", "luigi.png",
 	"mario.png", "peach.png", "toad.png", "toadette.png", "yoshi.png"
 ];
 
@@ -92,7 +92,7 @@ function addPoint(){
     	else if (this.src.indexOf("daisy.png") != -1){
        		result+=10;
        	}
-       	else if (this.src.indexOf("goomba.png") != -1){
+       	else if (this.src.indexOf("goomba.PNG") != -1){
        		result-=10;
        	}
        	else if (this.src.indexOf("luigi.png") != -1){
